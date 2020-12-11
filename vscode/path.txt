@@ -1,0 +1,1 @@
+%USERPROFILE%\.vscode\extensions\alefragnani.delphi-themes-1.4.0\themes\delphi-default-color-theme.json
