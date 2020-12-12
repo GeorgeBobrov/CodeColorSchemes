@@ -19,8 +19,8 @@
 		"editorGutter.background": "#f4f4f4",
 		"editorSuggestWidget.background": "#ffffff",
 		"editorSuggestWidget.border": "#aaaaaa",
-		"tab.activeBackground": "#a0a0a4",
-		"tab.inactiveBackground": "#f0f0f0",
+		// "tab.activeBackground": "#a0a0a4",
+		// "tab.inactiveBackground": "#f0f0f0",
 		"tab.border": "#000000",
 		"tab.activeForeground": "#000000",
 		"tab.inactiveForeground": "#000000",
@@ -33,7 +33,23 @@
 		"sideBar.foreground": "#000000",
 		"sideBarTitle.foreground": "#000000",
 		"sideBarSectionHeader.background": "#e3e3e3",
-		"editorGutter.modifiedBackground": "#00ff00"
+		"editorGutter.modifiedBackground": "#00ff00",
+		"sideBar.border": "#7a7a7a",
+		"statusBar.border": "#c7c7c7",
+		"activityBar.border": "#c7c7c7",
+		"panel.border": "#7a7a7a",
+		"activityBar.activeBackground": "#ebe6d3",   
+		"activityBar.activeBorder": "#26a04b",
+		"titleBar.border": "#33333399",
+		"tab.activeBorderTop": "#7a7a7a",
+		"tab.activeBackground": "#ffffff",
+		"tab.inactiveBackground": "#d8d8d8",
+		"window.activeBorder": "#fcfcfc",
+		"window.inactiveBorder": "#adadad",
+		"titleBar.activeBackground": "#f0f0f0",
+		"titleBar.inactiveBackground": "#adadad",
+		"terminal.background": "#c7c7c7",
+		"sideBarSectionHeader.border": "#c7c7c7",
 	},
 	"tokenColors": [
 		{
@@ -65,10 +81,11 @@
 			"name": "Comments: Documentation",
 			"scope": [
 				"comment.documentation",
-				"comment.block.documentation"
+				"comment.block.documentation",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#3a9401"
 			}
 		},
 		{
@@ -149,9 +166,12 @@
 			}
 		},
 		{
+			"name": "Function declarations",
 			"scope": [
 				"meta.definition.function",
-				"entity.name.function.definition"
+				"entity.name.function.definition",
+				"entity.name.function.python",
+				"entity.name.function.declaration.kotlin"
 			],
 			"settings": {
 				"fontStyle": "bold",
