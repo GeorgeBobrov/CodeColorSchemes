@@ -1,1 +1,1 @@
-%USERPROFILE%\.vscode\extensions\alefragnani.delphi-themes-1.4.0\themes\delphi-default-color-theme.json
+%USERPROFILE%\.vscode\extensions\pkief.material-icon-theme-4.11.0\icons\folder-root.png
