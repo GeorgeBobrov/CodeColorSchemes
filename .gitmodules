@@ -1,0 +1,3 @@
+[submodule "vscode-skivvy-themes"]
+	path = vscode-skivvy-themes
+	url = https://github.com/GeorgeBobrov/vscode-skivvy-themes
